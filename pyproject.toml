@@ -3,4 +3,11 @@ name = "crm"
 version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "django>=4.2.25",
+    "django-bootstrap-v5>=1.0.11",
+    "pillow>=12.0.0",
+    "psycopg2-binary>=2.9.11",
+    "pylint>=4.0.2",
+    "pylint-django>=2.5.2",
+]
