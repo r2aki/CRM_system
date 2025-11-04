@@ -121,30 +121,19 @@ python manage.py runserver
 ```
 crm-system/
 ├── crm_project/              # Основной проект Django
-│   ├── settings.py           # Настройки проекта
-│   ├── urls.py               # Главные URL-маршруты
-│   └── wsgi.py
-├── crmsystem/                # Все приложения системы
+│   ├── crm_project/          # Настройки проекта
 │   ├── users/                # Пользователи и профили
 │   ├── products/             # Продукты/услуги
 │   ├── ads/                  # Рекламные кампании
 │   ├── leads/                # Потенциальные клиенты
 │   ├── customers/            # Активные клиенты
 │   ├── contracts/            # Контракты
-│   └── registration/         # Регистрация и вход
-├── static/                   # Статические файлы
-├── templates/                # HTML шаблоны
-├── media/                    # Загруженные файлы
-├── manage.py
+│   ├── registration/         # Регистрация и вход
+│   ├── templates/            # HTML шаблоны
+│   ├── media/                    # Загруженные файлы
+│   └── manage.py
 ├── requirements.txt
 └── README.md
-```
-
-## Тестирование
-
-Для запуска тестов используйте команду:
-```bash
-python manage.py test
 ```
 
 ## 👤 Автор
